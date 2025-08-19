@@ -1,0 +1,77 @@
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: #f7f6f3;
+  color: #222;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  padding: 20px;
+}
+header {
+  text-align: center;
+  margin-bottom: 12px;
+}
+header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+.image-wrap {
+  text-align: center;
+  margin: 18px 0;
+}
+img.story-img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+.controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 12px 0;
+}
+.controls > * {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #e6e1da;
+  background: #fff;
+}
+.controls select, .controls input[type=range] {
+  padding: 6px;
+}
+.story {
+  line-height: 1.6;
+  padding: 10px;
+}
+.paragraph {
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  background: #fcfcfb;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.paragraph:hover {
+  background: #f1efe9;
+}
+.paragraph.active {
+  background: linear-gradient(90deg,#fff8e6,#fff);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+}
+footer {
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 12px;
+}
+button {
+  cursor: pointer;
+}
