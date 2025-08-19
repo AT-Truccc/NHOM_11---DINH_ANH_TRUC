@@ -1,2 +1,12 @@
-# NHOM_11---DINH_ANH_TRUC
-Phát triển website hỗ trợ kể và đọc truyện trong môi trường số
+<div align="center">
+
+# Phát triển website hỗ trợ kể và đọc truyện <br>  trong môi trường số
+
+</div>
+
+
+<div align="center">
+
+<p align="center">
+  <img src="aiot.jpg" alt="Logo aiot " width="2000"/>
+</p>
